@@ -15,3 +15,7 @@
 //= require_tree .
 //= require jquery
 //= require materialize-sprockets
+
+$( document ).on('turbolinks:load', function() {
+  $(".button-collapse").sideNav();
+});
