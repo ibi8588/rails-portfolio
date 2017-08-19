@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   resources :profile, only: [:index]
   resources :about, only: [:index]
   resources :home, only: [:index]
+  resources :magic, only:[:index]
 
 end
